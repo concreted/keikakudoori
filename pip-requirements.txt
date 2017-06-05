@@ -1,0 +1,4 @@
+celery==4.0.2
+redis==2.10.5
+requests==2.17.3
+celery-redbeat==0.10.0

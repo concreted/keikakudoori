@@ -1,0 +1,8 @@
+bin
+*.rdb
+*.pyc
+.Python
+include
+lib
+celerybeat.pid
+pip-selfcheck.json
