@@ -9,10 +9,10 @@ app.config_from_object('celeryconfig')
 def add(x, y):
     return x + y
 
-app.conf.beat_schedule = {
-    'add-every-10-seconds': {
-        'task': 'tasks.add',
-        'schedule': 10.0,
-        'args': (16, 16)
-    },
-}
+# app.conf.beat_schedule = {
+#     'add-every-10-seconds': {
+#         'task': 'tasks.add',
+#         'schedule': 10.0,
+#         'args': (16, 16)
+#     },
+# }
